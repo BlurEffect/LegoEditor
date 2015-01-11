@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImprovedLegoEditor", "ImprovedLegoEditor\ImprovedLegoEditor.vcxproj", "{FFE84230-09E5-45AD-A884-65FE2E748BC4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelConverter", "ModelConverter\ModelConverter.vcxproj", "{11A28AD1-733D-4738-A3F7-9D58DD52AF37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFE84230-09E5-45AD-A884-65FE2E748BC4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FFE84230-09E5-45AD-A884-65FE2E748BC4}.Debug|Win32.Build.0 = Debug|Win32
+		{FFE84230-09E5-45AD-A884-65FE2E748BC4}.Release|Win32.ActiveCfg = Release|Win32
+		{FFE84230-09E5-45AD-A884-65FE2E748BC4}.Release|Win32.Build.0 = Release|Win32
+		{11A28AD1-733D-4738-A3F7-9D58DD52AF37}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11A28AD1-733D-4738-A3F7-9D58DD52AF37}.Debug|Win32.Build.0 = Debug|Win32
+		{11A28AD1-733D-4738-A3F7-9D58DD52AF37}.Release|Win32.ActiveCfg = Release|Win32
+		{11A28AD1-733D-4738-A3F7-9D58DD52AF37}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

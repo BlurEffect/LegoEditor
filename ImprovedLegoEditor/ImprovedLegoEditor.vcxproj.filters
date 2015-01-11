@@ -1,0 +1,740 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{0c0c4956-4c0f-4dbe-b52b-647ab559250b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Editor">
+      <UniqueIdentifier>{4ac7b944-d855-4544-b330-ba13b60c0f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{e8b82d0d-45f2-47d1-b1dc-c48ec5c92d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mesh">
+      <UniqueIdentifier>{4630eaf1-f388-4fb1-a94f-3355f58054bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EditorCamera">
+      <UniqueIdentifier>{01d8ee5f-9b5a-414b-989c-6bf11b3913e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Editor">
+      <UniqueIdentifier>{ffce89dc-0f1b-41a2-9622-3e78ce5ff236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EditorCamera">
+      <UniqueIdentifier>{bc333e03-1e59-470f-85e5-df45a572e9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{b5dee6c4-2201-4bce-b70d-bdebb10389f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{954de238-f07c-48d3-a79f-e397d2c2e446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{e8ad36a1-5d70-4ae9-8423-8e0bbe8387e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EditorGeometry">
+      <UniqueIdentifier>{10847cb6-9a66-474a-b176-abc8da12c0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EditorGeometry">
+      <UniqueIdentifier>{f5e545f1-4073-477e-b622-7996cefbc450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EditorGeometry\Grid">
+      <UniqueIdentifier>{6d97ae92-1126-40e3-841a-941c3b97c021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EditorGeometry\Cursor">
+      <UniqueIdentifier>{cd636178-9227-474c-88e7-fcbf9fb9ddc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EditorGeometry\Cursor">
+      <UniqueIdentifier>{b941e349-20ea-4a6c-b13e-1b841dcf3250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EditorGeometry\Grid">
+      <UniqueIdentifier>{8d8601cb-fea7-43f4-90de-cbd7116ecada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LegoWorld">
+      <UniqueIdentifier>{f9a490ba-8274-4dfa-9a7a-efd190ed3134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LegoWorld">
+      <UniqueIdentifier>{dcba37c3-99a5-4f4c-a6e1-74d7d78cb80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer\TextRenderer">
+      <UniqueIdentifier>{501f152b-b9c8-4e07-9930-43263135ce44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\TextRenderer">
+      <UniqueIdentifier>{b208454c-bc88-4643-ae1c-a1ef5e184c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PerformanceTimer">
+      <UniqueIdentifier>{cce44567-d0a3-401b-8d1b-f50e14a84241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PerformanceTimer">
+      <UniqueIdentifier>{85b8f1fc-a03a-4ecc-bd5d-2796a2d910b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderFramework">
+      <UniqueIdentifier>{077ac83c-7ae6-4d8a-b8ef-b2b29e11582f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderFramework\ConcreteShaders">
+      <UniqueIdentifier>{bb8a2d5b-2d7f-4896-b138-b113dda18e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderFramework">
+      <UniqueIdentifier>{0207d069-cc3b-4f14-850c-61456d65e195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderFramework\ConcreteShaders">
+      <UniqueIdentifier>{421305b2-2b44-4473-9a1c-ea2ab26cd046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer\ScreenQuad">
+      <UniqueIdentifier>{2111f14a-5022-4f34-95aa-e9103e5aa121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\ScreenQuad">
+      <UniqueIdentifier>{466f8e1e-572c-4bc7-8bb9-bc0ed18ae319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderFramework\ConcreteShaders\Toon06">
+      <UniqueIdentifier>{9c844372-833d-4716-926c-ee77dba19079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderFramework\ConcreteShaders\Toon06">
+      <UniqueIdentifier>{bf5b4eca-ec1c-472c-bc92-e6ec3eb9977d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderFramework\ConcreteShaders\EditorGeometry">
+      <UniqueIdentifier>{4b3c4101-3332-4b71-9c1f-10f94c01b4c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderFramework\ConcreteShaders\SimpleLighted">
+      <UniqueIdentifier>{7bc144fb-69db-44b9-acd6-8173d10a5657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderFramework\ConcreteShaders\SimpleUnlit">
+      <UniqueIdentifier>{00748d2e-250b-4722-bd91-b666e40bcb25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderFramework\ConcreteShaders\Font">
+      <UniqueIdentifier>{f0e66bb9-1a0a-46e9-a3c6-934cd838963c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderFramework\ConcreteShaders\Toon01">
+      <UniqueIdentifier>{d5b29842-543a-476c-a421-23b8a4377ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderFramework\ConcreteShaders\Toon02">
+      <UniqueIdentifier>{c883471f-b1de-4a90-a3b7-5cacdffff362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderFramework\ConcreteShaders\Toon03">
+      <UniqueIdentifier>{4309384f-458b-4a67-a68a-dfbc77430faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderFramework\ConcreteShaders\Toon04">
+      <UniqueIdentifier>{5be2b210-fe33-44c6-9413-342f54a1d0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderFramework\ConcreteShaders\Toon05">
+      <UniqueIdentifier>{fa56670d-ddca-4b9d-90eb-4d8b431fc3f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderFramework\ConcreteShaders\Toon05">
+      <UniqueIdentifier>{45c9c556-a7ce-42ba-9928-4eca744a089d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderFramework\ConcreteShaders\Toon04">
+      <UniqueIdentifier>{07646bdf-94d8-4b00-8dc2-52f3c2bccd0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderFramework\ConcreteShaders\Toon03">
+      <UniqueIdentifier>{9b816086-3772-41c5-aedd-36ec1c67dabc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderFramework\ConcreteShaders\Toon02">
+      <UniqueIdentifier>{115bb5ff-142e-42ef-85a1-dac708b8d502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderFramework\ConcreteShaders\Toon01">
+      <UniqueIdentifier>{93bbcc66-1ee8-4a50-8f97-0efcea0c5b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderFramework\ConcreteShaders\EditorGeometry">
+      <UniqueIdentifier>{6d366038-c712-443e-9f7c-8e24a5881c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderFramework\ConcreteShaders\SimpleUnlit">
+      <UniqueIdentifier>{9f78b94e-58a1-430d-8de8-c59b24e9ecc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderFramework\ConcreteShaders\SimpleLighting">
+      <UniqueIdentifier>{bbeff0ec-2eee-4a27-a6c9-4a2a8be04b45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>Source Files\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorImplementation.cpp">
+      <Filter>Source Files\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="InputImplementation.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshImplementation.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorCamera.cpp">
+      <Filter>Source Files\EditorCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorCameraImplementation.cpp">
+      <Filter>Source Files\EditorCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Source Files\EditorGeometry\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="GridImplementation.cpp">
+      <Filter>Source Files\EditorGeometry\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Source Files\EditorGeometry\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="CursorImplementation.cpp">
+      <Filter>Source Files\EditorGeometry\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererImplementation.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="LegoWorld.cpp">
+      <Filter>Source Files\LegoWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="LegoWorldImplementation.cpp">
+      <Filter>Source Files\LegoWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderContext.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderContextImplementation.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="LegoWorldNode.cpp">
+      <Filter>Source Files\LegoWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="LegoWorldNodeImplementation.cpp">
+      <Filter>Source Files\LegoWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files\Renderer\TextRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="FontImplementation.cpp">
+      <Filter>Source Files\Renderer\TextRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Source Files\Renderer\TextRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRendererImplementation.cpp">
+      <Filter>Source Files\Renderer\TextRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sentence.cpp">
+      <Filter>Source Files\Renderer\TextRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SentenceImplementation.cpp">
+      <Filter>Source Files\Renderer\TextRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="PerformanceTimerImplementation.cpp">
+      <Filter>Source Files\PerformanceTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="PerformanceTimer.cpp">
+      <Filter>Source Files\PerformanceTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>Source Files\ShaderFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShader.cpp">
+      <Filter>Source Files\ShaderFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenQuad.cpp">
+      <Filter>Source Files\Renderer\ScreenQuad</Filter>
+    </ClCompile>
+    <ClCompile Include="ComposeImagePixelShaderToon06.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </ClCompile>
+    <ClCompile Include="ComposeImageVertexShaderToon06.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMapsPixelShaderToon06.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMapsVertexShaderToon06.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorGeometryPixelShader.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\EditorGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorGeometryVertexShader.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\EditorGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="LightedPixelShader.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\SimpleLighting</Filter>
+    </ClCompile>
+    <ClCompile Include="LightedVertexShader.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\SimpleLighting</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplePixelShader.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\SimpleUnlit</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleVertexShader.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\SimpleUnlit</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonColourPixelShader01.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonColourVertexShader01.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonEdgesPixelShader01.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonEdgesVertexShader01.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonColourPixelShader02.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonColourVertexShader02.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonEdgesPixelShader02.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonEdgesVertexShader02.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonColourPixelShader04.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonColourVertexShader04.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonEdgesPixelShader04.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonEdgesVertexShader04.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonVertexShader03.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon03</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonPixelShader03.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon03</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonColourPixelShader05.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonColourVertexShader05.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonEdgesPixelShader05.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonEdgesVertexShader05.cpp">
+      <Filter>Source Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererImplementation.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererDataStructures.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>Header Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorImplementation.h">
+      <Filter>Header Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDataStructures.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputImplementation.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorCamera.h">
+      <Filter>Header Files\EditorCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorCameraImplementation.h">
+      <Filter>Header Files\EditorCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshImplementation.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshDataStructures.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorGeometryDataStructures.h">
+      <Filter>Header Files\EditorGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Header Files\EditorGeometry\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorImplementation.h">
+      <Filter>Header Files\EditorGeometry\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Header Files\EditorGeometry\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="GridImplementation.h">
+      <Filter>Header Files\EditorGeometry\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorDataStructures.h">
+      <Filter>Header Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="LegoWorld.h">
+      <Filter>Header Files\LegoWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="LegoWorldImplementation.h">
+      <Filter>Header Files\LegoWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="LegoBrickData.h">
+      <Filter>Header Files\LegoWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonDataStructures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderContextImplementation.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderContext.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="LegoWorldNodeImplementation.h">
+      <Filter>Header Files\LegoWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="LegoWorldNode.h">
+      <Filter>Header Files\LegoWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files\Renderer\TextRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="FontImplementation.h">
+      <Filter>Header Files\Renderer\TextRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Header Files\Renderer\TextRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRendererImplementation.h">
+      <Filter>Header Files\Renderer\TextRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextDataStructures.h">
+      <Filter>Header Files\Renderer\TextRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sentence.h">
+      <Filter>Header Files\Renderer\TextRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SentenceImplementation.h">
+      <Filter>Header Files\Renderer\TextRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="PerformanceTimer.h">
+      <Filter>Header Files\PerformanceTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="PerformanceTimerImplementation.h">
+      <Filter>Header Files\PerformanceTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="PerformanceTimerDataStructures.h">
+      <Filter>Header Files\PerformanceTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\ShaderFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.h">
+      <Filter>Header Files\ShaderFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>Header Files\ShaderFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderDataStructures.h">
+      <Filter>Header Files\ShaderFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenQuad.h">
+      <Filter>Header Files\Renderer\ScreenQuad</Filter>
+    </ClInclude>
+    <ClInclude Include="ComposeImagePixelShaderToon06.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </ClInclude>
+    <ClInclude Include="ComposeImageVertexShaderToon06.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateMapsPixelShaderToon06.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateMapsVertexShaderToon06.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledComposeImagePixelShader06.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledComposeImageVertexShader06.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledCreateMapsPixelShader06.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledCreateMapsVertexShader06.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorGeometryPixelShader.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\EditorGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorGeometryVertexShader.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\EditorGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="LightedPixelShader.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\SimpleLighted</Filter>
+    </ClInclude>
+    <ClInclude Include="LightedVertexShader.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\SimpleLighted</Filter>
+    </ClInclude>
+    <ClInclude Include="SimplePixelShader.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\SimpleUnlit</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleVertexShader.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\SimpleUnlit</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledEditorGeometryPixelShader.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\EditorGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledEditorGeometryVertexShader.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\EditorGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledLightedPixelShader.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\SimpleLighted</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledLightedVertexShader.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\SimpleLighted</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledSimplePixelShader.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\SimpleUnlit</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledSimpleVertexShader.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\SimpleUnlit</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledFontPixelShader.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledFontVertexShader.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonColourPixelShader01.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonColourVertexShader01.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonEdgesPixelShader01.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonEdgesVertexShader01.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonEdgesPixelShader01.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonColourVertexShader01.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonEdgesVertexShader01.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonColourPixelShader01.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonColourPixelShader02.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonColourVertexShader02.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonEdgesPixelShader02.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonEdgesVertexShader02.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonColourPixelShader02.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonColourVertexShader02.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonEdgesPixelShader02.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonEdgesVertexShader02.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonPixelShader03.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon03</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonVertexShader03.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon03</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonPixelShader03.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon03</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonVertexShader03.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon03</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonColourPixelShader04.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonColourVertexShader04.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonEdgesPixelShader04.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonEdgesVertexShader04.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonColourPixelShader04.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonColourVertexShader04.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonEdgesPixelShader04.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonEdgesVertexShader04.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonColourPixelShader05.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonColourVertexShader05.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonEdgesPixelShader05.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledToonEdgesVertexShader05.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonColourPixelShader05.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonColourVertexShader05.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonEdgesPixelShader05.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonEdgesVertexShader05.h">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\PS_ComposeImageToon06.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_CreateMapsToon06.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_ComposeImageToon06.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_CreateMapsToon06.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon06</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_Font.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Font</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_Font.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Font</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_Lighted.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\SimpleLighted</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_Lighted.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\SimpleLighted</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_Simple.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\SimpleUnlit</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_Simple.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\SimpleUnlit</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_EditorGeometry.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\EditorGeometry</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_EditorGeometry.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\EditorGeometry</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_ToonColour01.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_ToonEdges01.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_ToonColour01.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_ToonEdges01.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon01</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_ToonColour02.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_ToonEdges02.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_ToonColour02.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_ToonEdges02.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon02</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_Toon03.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon03</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_Toon03.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon03</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_ToonColour04.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_ToonEdges04.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_ToonColour04.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_ToonEdges04.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon04</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_ToonColour05.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_ToonEdges05.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_ToonColour05.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_ToonEdges05.FX">
+      <Filter>Header Files\ShaderFramework\ConcreteShaders\Toon05</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
